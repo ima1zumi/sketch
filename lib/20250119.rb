@@ -27,6 +27,7 @@ def draw
 
   strokeWeight(1)
 
+  # ref: https://zenn.dev/kurogitsune/books/d6165036240279/viewer/8e1eb0
   (0...8).each do |l|
     (0...20).each do |k|
       # fill(色相=52, 彩度=80, 明度=4 + l*12)
